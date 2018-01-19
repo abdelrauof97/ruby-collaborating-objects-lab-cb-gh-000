@@ -19,9 +19,7 @@ class Artist
   end
 
   def self.create_by_name(name)
-    song = Song.new(name)
-    @@all << song 
-    song.artist = self 
+    
   end
 
   def self.find_or_create_by_name(name)
