@@ -42,6 +42,7 @@ end
 
 artist_1 = Artist.find_or_create_by_name("Michael Jackson")
 
+
 # learn spec/artist_spec.rb --fail-fast
 # ruby lib/artist.rb
 
