@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files 
-    files = Dir.glob("#{@path}").select { |x| x.include?(".mp3")}
+    files = Dir.glob("#{@path}").select { |x| x.include?("mp3")}
   end
   
 end
