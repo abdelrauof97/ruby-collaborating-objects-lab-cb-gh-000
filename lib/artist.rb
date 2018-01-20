@@ -21,7 +21,7 @@ class Artist
 
   def self.create_by_name(name)
     artist = self.new(name) 
-    artist.save
+    self.artist.save
     @@all << artist
     artist
   end
