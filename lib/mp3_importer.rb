@@ -11,6 +11,8 @@ class MP3Importer
     @files = Dir.glob("#{@path}/*.mp3")
   end
   
+  
+  
 end
 
 
