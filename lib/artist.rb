@@ -40,7 +40,9 @@ class Artist
     @@all << self
   end
   
-  def 
+  def print_songs
+    
+  end
 
 end
 
