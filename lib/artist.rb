@@ -11,6 +11,7 @@ class Artist
 
   def add_song(song)
     @songs << song
+    @@all << song
     song.artist = self
   end
   
@@ -41,16 +42,10 @@ class Artist
   end
   
   def print_songs
-    @songs
+    @@all
   end
 
 end
-artist = Artist.new("dian")
-dirty_diana = Song.new("Dirty Diana")
-billie_jean = Song.new("Billie Jean")
-artist.add_song(dirty_diana)
-artist.add_song(billie_jean)
-puts artist.print_songs
 # learn spec/artist_spec.rb --fail-fast
 # ruby lib/artist.rb
 
