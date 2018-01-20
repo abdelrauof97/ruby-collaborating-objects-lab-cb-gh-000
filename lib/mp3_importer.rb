@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files 
-    @files = Dir.glob("#{@path}/*.mp3").collect{ |x| x.gsup{"#{path}", ""}
+    @files = Dir.glob("#{@path}/*.mp3").collect{ |x| x.gsup{/#{path}/, ""}
   end
   
   
