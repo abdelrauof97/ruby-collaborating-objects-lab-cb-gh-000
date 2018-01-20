@@ -7,12 +7,12 @@ class Song
   end
   
   def new_by_filename(filename)
-
+    song = self.new(file[0])
+    file = filename.split(" - ")
+    song.artist = file[1]
   end
   
 end
       
-      new_instance = Song.new_by_filename(file_name)
-     #expect(new_instance.artist.name).to eq('Michael Jackson')
 
 # learn spec/song_spec.rb --fail-fast
