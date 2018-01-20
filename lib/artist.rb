@@ -46,6 +46,10 @@ class Artist
 
 end
 
+      dirty_diana = Song.new("Dirty Diana")
+      billie_jean = Song.new("Billie Jean")
+      artist.add_song(dirty_diana)
+      artist.add_song(billie_jean)
 
 # learn spec/artist_spec.rb --fail-fast
 # ruby lib/artist.rb
