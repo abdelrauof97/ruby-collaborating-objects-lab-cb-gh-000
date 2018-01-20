@@ -41,7 +41,7 @@ class Artist
   end
   
   def print_songs
-    @songs.collect { |x| x.name }
+    @songs.map { |x| x.name }
   end
 
 end
