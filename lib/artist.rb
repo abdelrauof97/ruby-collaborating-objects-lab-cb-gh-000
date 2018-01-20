@@ -39,13 +39,11 @@ class Artist
   def save
     @@all << self
   end
+  
+  def 
 
 end
 
-artist_1 = Artist.find_or_create_by_name("Michael Jackson")
-artist_2 = Artist.find_or_create_by_name("Michael Jackson")
-puts  artist_1 
-puts artist_2
 
 # learn spec/artist_spec.rb --fail-fast
 # ruby lib/artist.rb
