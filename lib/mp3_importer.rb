@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files 
-    Dir.glob["#{@path}**/*.mp3"].collect{ |x| 
+    Dir.glob["#{@path}**/*.mp3"]
   end
   
 end
