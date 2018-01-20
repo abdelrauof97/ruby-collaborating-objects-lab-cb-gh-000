@@ -12,7 +12,7 @@ class MP3Importer
   end
   
   def import 
-    @files.each { |x| x.
+    @files.each { |x| new_by_filename(x) }
   end
   
   
