@@ -41,7 +41,7 @@ class Artist
   end
   
   def print_songs
-    @songs.map { |x| x.name }
+    @songs.map { |x| x.name }.join(/n)
   end
 
 end
