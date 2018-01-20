@@ -47,13 +47,3 @@ class Artist
 end
 
 
-
-# learn spec/artist_spec.rb --fail-fast
-# ruby lib/artist.rb
-
-
-
-
-
-
-
