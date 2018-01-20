@@ -40,11 +40,14 @@ class Artist
     @@all << self
   end
   
-  def self.print_songs
+  def print_songs
     @songs.collect { |x| x.name }
   end
 
 end
+
+
+
 # learn spec/artist_spec.rb --fail-fast
 # ruby lib/artist.rb
 
